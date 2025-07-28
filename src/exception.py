@@ -3,7 +3,7 @@ So in any exceptions occur then
 sys library will store all the information
 '''
 import sys
-import logging
+from src.logger import logging
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info() #this will tell which file and line the exception has occured
 
